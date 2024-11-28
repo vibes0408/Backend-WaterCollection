@@ -16,7 +16,7 @@ app.get('/getLatestEntry', async (req, res) => {
     res.status(200).json(latestRecord);
 });
 
-app.get('/getEntry', (req, res) => {
+app.get('/', (req, res) => {
     res.send('Hello, Express!');
 });
 
